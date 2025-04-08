@@ -1,0 +1,27 @@
+{
+  "name": "live-commentary-analysis",
+  "version": "1.0.0",
+  "description": "WebSocket server for live commentary analysis",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Stratos Tziallas",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.1",
+    "express-ws": "^5.0.2",
+    "fs": "^0.0.1-security",
+    "openai": "^4.20.1",
+    "twilio": "^5.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
